@@ -1,0 +1,121 @@
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #fce4ec);
+      margin: auto;
+      padding: 20px;
+    }
+
+    .fm {
+      max-width: 700px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .field1
+    {
+      border: 5px solid transparent;
+      border-image: linear-gradient(to right,#FF512F,#DD2476);
+      border-image-slice: 1;
+      border-radius: 10px; 
+      padding: 20px;
+    }
+    .field2
+    {
+      border: 5px solid transparent;
+      border-image: linear-gradient(to right, #43A047, #66BB6A);
+      border-image-slice: 1;
+      border-radius: 10px; 
+      padding: 20px;
+    }
+   .field3
+    {
+      border: 5px solid transparent;
+      border-image: linear-gradient(to bottom, #FFF59D, #FFE082);
+      border-image-slice: 1;
+      border-radius: 10px; 
+      padding: 20px;
+    }
+   .field4
+    {
+      border: 5px solid transparent;
+      border-image: linear-gradient(to right, #36D1DC,#5B86E5);
+      border-image-slice: 1;
+      border-radius: 10px; 
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    .gender
+    {
+      display: flex;
+      gap: 10px;
+    }
+
+    .gender label
+    {
+      margin-right: 55px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .details{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+    .details label {
+      flex: 200px;
+      font-weight: bold;
+    }
+
+    .details input {
+      margin: auto;
+      flex: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .details input:focus {
+      border-color: #1976d2;
+    }
+
+    .complete {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .complete button {
+      padding: 12px 25px;
+      margin: 5px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: transform 0.2s, background 0.3s;
+
+    }
+
+    .submit{
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+    }
+
+    .reset {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      color: white;
+    }
+    
+    .complete button:hover
+    {
+      transform: scale(1.05);
+      opacity:0.9;
+    }

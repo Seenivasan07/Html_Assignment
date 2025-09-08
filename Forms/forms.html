@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Information</title>
+  <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fm">
+    <form  onsubmit="return validateForm()">
+        <fieldset class = "field1" required>
+            <legend><h2>Personal Information</h2></legend>
+        <div class="details">
+            <label>Full Name</label>
+            <input type="text" name="fullname" required>
+        </div>
+        <div class="details">
+            <label>Initial</label>
+            <input type="text" name="initial">
+        </div><br>
+        <div class = "details">
+            <label>Gender</label>
+            <div class = "gender">
+            <label><input type="radio" name="gender" value = "male">Male</label>
+            <label><input type="radio" name="gender" value = "Female">Female</label>
+            <label><input type="radio" name="gender" value = "Others">Others</label>
+            </div>
+        </div><br>
+        <div class="details">
+            <label>Date of Birth</label>
+            <input type="date" name="dob">
+        </div>
+        <div class="details">
+            <label>Father Name</label>
+            <input type="text" name="fathername">
+        </div>
+        <div class="details">
+            <label>Mother Name</label>
+            <input type="text" name="mothername">
+        </div>
+        <div class="details">
+            <label>Email Address</label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="details">
+            <label>Phone Number</label>
+            <input type="tel" name="phone" required>
+        </div>
+        </fieldset>
+     
+    <fieldset class = "field2">
+        <legend><h2>Address Information</h2></legend>
+      <div class="details">
+        <label>Street Address</label>
+        <input type="text" name="street">
+      </div>
+      <div class="details">
+        <label>City</label>
+        <input type="text" name="city">
+      </div>
+      <div class="details">
+        <label>State / Province</label>
+        <input type="text" name="state">
+      </div>
+      <div class="details">
+        <label>Postal Code</label>
+        <input type="text" name="postal">
+      </div>
+      <div class="details">
+        <label>Country</label>
+        <input type="text" name="country">
+      </div>
+      </fieldset>
+
+    <fieldset class = "field3">
+        <legend><h2> Professional Information </h2></legend>
+      <div class="details">
+        <label>Occupation / Job Title</label>
+        <input type="text" name="occupation">
+      </div>
+      <div class="details">
+        <label>Company Name</label>
+        <input type="text" name="company">
+      </div>
+      <div class="details">
+        <label>Work Email</label>
+        <input type="email" name="workemail">
+      </div>
+      <div class="details">
+        <label>Work Phone</label>
+        <input type="tel" name="workphone">
+      </div>
+      </fieldset>
+
+      <fieldset class = "field4">
+        <legend><h2>Banking Information</h2></legend>
+      <div class="details">
+        <label>Bank Name</label>
+        <input type="text" name="bankname">
+      </div>
+      <div class="details">
+        <label>Account Holder Name</label>
+        <input type="text" name="accountholder">
+      </div>
+      <div class="details">
+        <label>Account Number</label>
+        <input type="text" name="accountnumber">
+      </div>
+      <div class="details">
+        <label>Branch Name</label>
+        <input type="text" name="branchname">
+      </div>
+      <div class="details">
+        <label>PAN Card Number</label>
+        <input type="text" name="pancard">
+      </div>
+      </fieldset>
+    <div class="complete">
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
